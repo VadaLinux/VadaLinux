@@ -1,66 +1,65 @@
 # Gabriele Vadalà
 
-**AI Solution Architect & DevOps Engineer** — Ladispoli / Roma, Italia
+**AI Solution Architect & DevOps Engineer** — Ladispoli / Rome, Italy
 [CRI.GA.MO. 3 SRLS](https://www.crigamo3.com)
 
-Ventisei anni di infrastruttura enterprise (Linux, virtualizzazione, reti, cloud, CI/CD),
-oggi spesi su un problema diverso: rendere operativi gli agenti AI su sistemi reali,
-non su slide.
+Twenty-six years of enterprise infrastructure — Linux, virtualisation, networking,
+cloud, CI/CD — now spent on a different problem: making AI agents operational on real
+systems rather than on slides.
 
-Quello che mi interessa davvero è il punto in cui un modello linguistico smette di
-essere una demo e diventa un pezzo di infrastruttura: quando deve autenticarsi, leggere
-uno stato che cambia, sbagliare in modo recuperabile e lasciare una traccia che qualcuno
-può verificare dopo.
-
----
-
-## Su cosa sto lavorando
-
-**Orchestrazione agentica su HPC.** Un layer agentico sopra
-[FirecREST](https://github.com/eth-cscs/firecrest), il gateway REST del
-[CSCS](https://www.cscs.ch) (Swiss National Supercomputing Centre) verso i suoi
-supercomputer: un wrapper MCP sull'API, una board dove l'agente riceve il lavoro come
-un membro del team — con log di esecuzione e revisione umana prima del merge — e un
-layer RAG locale sulla documentazione, così l'agente cerca i parametri invece di
-inventarli.
-
-L'obiettivo è che un ricercatore che non è un esperto di HPC possa sottomettere,
-monitorare e diagnosticare job in linguaggio naturale. Tutto lo stack gira offline su
-un portatile, per poter essere provato senza chiedere risorse a nessuno.
+What actually interests me is the point where a language model stops being a demo and
+becomes a piece of infrastructure: when it has to authenticate, read state that changes
+under it, fail recoverably, and leave a trail somebody can verify afterwards.
 
 ---
 
-## In arrivo
+## What I'm working on
+
+**Agentic orchestration on HPC.** An agentic layer over
+[FirecREST](https://github.com/eth-cscs/firecrest), the REST gateway
+[CSCS](https://www.cscs.ch) (Swiss National Supercomputing Centre) exposes to its
+supercomputers: an MCP wrapper over the API, a board where the agent is assigned work
+like a team member — with an execution log and a human review gate — and a local RAG
+layer over the documentation, so the agent looks parameters up instead of inventing
+them.
+
+The goal is that a researcher who isn't an HPC expert can submit, monitor and diagnose
+jobs in natural language. The whole stack runs offline on a laptop, so it can be tried
+without asking anyone for resources.
+
+---
+
+## Upcoming
 
 **FirecREST Hackathon — *Automating Your Workflow with FirecREST***
-CSCS / ETH Zürich · 3 novembre 2026
+CSCS / ETH Zürich · 3 November 2026
 
 ---
 
-## Progetti pubblici
+## Public projects
 
 | | |
 |---|---|
-| **[rodecaster-ndi-hx](https://github.com/VadaLinux/rodecaster-ndi-hx)** | Trasforma una webcam USB su Raspberry Pi 4 in una sorgente NDI\|HX reale, usando l'encoder H.264 hardware. Reverse-engineering sull'NDI Advanced SDK con un RØDECaster Video come receiver. |
-| **[framework360-mcp-server](https://github.com/VadaLinux/framework360-mcp-server)** | Server MCP + CLI sui 141 endpoint REST di Framework360: clienti, ordini, chat, marketing, report — da Claude Code o da terminale. |
-| **[framework360-skill](https://github.com/VadaLinux/framework360-skill)** | La skill che insegna a un agente a usare quella CLI senza indovinare comandi e parametri. |
+| **[rodecaster-ndi-hx](https://github.com/VadaLinux/rodecaster-ndi-hx)** | Turns a USB webcam on a Raspberry Pi 4 into a real NDI\|HX source using the hardware H.264 encoder. Reverse-engineered against the NDI Advanced SDK with a RØDECaster Video as the receiver. |
+| **[framework360-mcp-server](https://github.com/VadaLinux/framework360-mcp-server)** | MCP server + CLI over Framework360's 141 REST endpoints: clients, orders, chat, marketing, reports — from Claude Code or the terminal. |
+| **[framework360-skill](https://github.com/VadaLinux/framework360-skill)** | The skill that teaches an agent to drive that CLI without guessing commands and parameters. |
 
 ---
 
-## Come lavoro
+## How I work
 
-- **Un'affermazione senza fonte non è un'affermazione.** Nei miei progetti un fatto
-  non verificato si scrive `[unverified]`, con nota di dove ho cercato. Vale anche —
-  soprattutto — per quello che dice un LLM.
-- **Un errore riportato vale più di un successo descritto.** Se un container non parte
-  o una chiamata fallisce, il valore sta nel comando esatto e nell'output verbatim,
-  non in una spiegazione di come sarebbe dovuta andare.
-- **Il lavoro finisce in review, non in `main`.** Anche quando l'ha fatto un agente.
-  Soprattutto quando l'ha fatto un agente.
+- **A claim without a source isn't a claim.** In my projects an unverified fact is
+  written `[unverified]`, with a note of where I looked. That applies to what an LLM
+  says too — especially to that.
+- **A reported failure is worth more than a described success.** When a container won't
+  start or a call fails, the value is in the exact command and the verbatim output, not
+  in an account of how it should have gone.
+- **Work lands in review, not in `main`.** Even when an agent did it. Especially when
+  an agent did it.
 
 ---
 
 **Stack:** Linux (openSUSE, RHEL, Debian) · Kubernetes · Terraform · Docker ·
-CI/CD · MCP · RAG (LlamaIndex, Qdrant) · Python · agenti multi-runtime
+CI/CD · MCP · RAG (LlamaIndex, Qdrant) · Python · multi-runtime agents
 
-📍 Ladispoli / Roma · 🔗 [crigamo3.com](https://www.crigamo3.com)
+📍 Ladispoli / Rome · 🔗 [crigamo3.com](https://www.crigamo3.com)
