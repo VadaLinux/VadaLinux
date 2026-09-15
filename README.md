@@ -28,8 +28,12 @@ L'obiettivo è che un ricercatore che non è un esperto di HPC possa sottometter
 monitorare e diagnosticare job in linguaggio naturale. Tutto lo stack gira offline su
 un portatile, per poter essere provato senza chiedere risorse a nessuno.
 
-Sarò alla **FirecREST Hackathon — *Automating Your Workflow with FirecREST***,
-ETH Zürich, 3 novembre 2026.
+---
+
+## In arrivo
+
+**FirecREST Hackathon — *Automating Your Workflow with FirecREST***
+CSCS / ETH Zürich · 3 novembre 2026
 
 ---
 
