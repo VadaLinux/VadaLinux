@@ -63,4 +63,4 @@ CSCS / ETH Zürich · 3 November 2026
 **Stack:** Linux (openSUSE, RHEL, Debian) · Kubernetes · Terraform · Docker ·
 CI/CD · MCP · RAG (LlamaIndex, Qdrant) · Python · multi-runtime agents
 
-📍 Ladispoli / Rome
+📍 Ladispoli / Rome · 🔗 [poplme.co](https://crigamo3.poplme.co/crigamo3srls/dash)
