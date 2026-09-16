@@ -40,6 +40,8 @@ CSCS / ETH Zürich · 3 November 2026
 
 | | |
 |---|---|
+| **[agentic-server-platform](https://github.com/VadaLinux/agentic-server-platform)** | Production-grade autonomous server platform: OmniRoute LLM gateway, Multica workspace orchestration, and Hermes Agent runtime in Docker & Kubernetes. Featuring token governance, semantic context compression (RTK), and Cloudflare Zero Trust ingress. |
+| **[firecrest-agentic-workbench](https://github.com/VadaLinux/firecrest-agentic-workbench)** | Agentic layer over CSCS FirecREST: MCP wrapper + Multica board + DocMind RAG. Built for the FirecREST Hackathon (CSCS / ETH Zürich). |
 | **[rodecaster-ndi-hx](https://github.com/VadaLinux/rodecaster-ndi-hx)** | Turns a USB webcam on a Raspberry Pi 4 into a real NDI\|HX source using the hardware H.264 encoder. Reverse-engineered against the NDI Advanced SDK with a RØDECaster Video as the receiver. |
 | **[framework360-mcp-server](https://github.com/VadaLinux/framework360-mcp-server)** | MCP server + CLI over Framework360's 141 REST endpoints: clients, orders, chat, marketing, reports — from Claude Code or the terminal. |
 | **[framework360-skill](https://github.com/VadaLinux/framework360-skill)** | The skill that teaches an agent to drive that CLI without guessing commands and parameters. |
