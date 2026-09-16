@@ -1,7 +1,6 @@
 # Gabriele Vadalà
 
 **AI Solution Architect & DevOps Engineer** — Ladispoli / Rome, Italy
-[CRI.GA.MO. 3 SRLS](https://www.crigamo3.com)
 
 Twenty-six years of enterprise infrastructure — Linux, virtualisation, networking,
 cloud, CI/CD — now spent on a different problem: making AI agents operational on real
@@ -64,4 +63,4 @@ CSCS / ETH Zürich · 3 November 2026
 **Stack:** Linux (openSUSE, RHEL, Debian) · Kubernetes · Terraform · Docker ·
 CI/CD · MCP · RAG (LlamaIndex, Qdrant) · Python · multi-runtime agents
 
-📍 Ladispoli / Rome · 🔗 [crigamo3.com](https://www.crigamo3.com)
+📍 Ladispoli / Rome
